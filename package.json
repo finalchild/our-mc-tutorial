@@ -1,0 +1,32 @@
+{
+  "name": "our-mc-tutorial",
+  "version": "0.0.1-SNAPSHOT",
+  "description": "A Minecraft tutorial for Our Minecraft Space",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "node --experimental-modules index.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/finalchild/our-mc-tutorial.git"
+  },
+  "keywords": [
+    "Minecraft",
+    "tutorial",
+    "naver",
+    "cafe",
+    "our-minecraft-space"
+  ],
+  "author": "Final Child",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/finalchild/our-mc-tutorial/issues"
+  },
+  "homepage": "https://github.com/finalchild/our-mc-tutorial#readme",
+  "dependencies": {
+    "fs-extra": "^7.0.1",
+    "juice": "^5.1.0",
+    "markdown-it": "^8.4.2",
+    "markdown-it-container": "^2.0.0"
+  }
+}
