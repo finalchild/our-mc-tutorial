@@ -63,7 +63,8 @@ async function main() {
     const css = await fs.readFile('./style.css', 'utf8');
 
     await fs.emptyDir('./generated');
-    await fs.copy('./images', './generated/images')
+    await fs.copy('./images', './generated/images');
+    await fs.writeFile('./generated/CNAME', 'tutorial.finalchild.me\n');
 
     const filenames = await fs.readdir('./articles');
     filenames.map(async filename => {
