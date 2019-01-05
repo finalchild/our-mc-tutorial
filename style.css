@@ -46,6 +46,7 @@ table {
 table th, table td {
     border: 1px solid lightgray;
     padding: 10px;
+    text-align: center;
 }
 
 table th {
@@ -59,6 +60,12 @@ table td {
 table th.p27 {
     background-color: rgb(229, 229, 229);
     width: 27%
+}
+
+table th.light-head {
+    background-color: lightgreen;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
 }
 
 
