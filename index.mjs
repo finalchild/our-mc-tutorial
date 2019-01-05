@@ -33,6 +33,10 @@ const template2End = `
 main();
 
 async function main() {
+    await fs.emptyDir('./generated');
+    await fs.copy('./images', './generated/images');
+    await fs.writeFile('./generated/CNAME', 'tutorial.finalchild.me\n');
+
     const md = new MarkdownIt({
         html: true,
         breaks: true,
@@ -49,7 +53,9 @@ async function main() {
     const oldImageRule = md.renderer.rules.image;
     md.renderer.rules.image = (tokens, idx, options, env, slf) => {
         if (tokens[idx].nesting !== 0) return oldImageRule(tokens, idx, options, env, slf);
-
+        if (tokens[idx].attrGet('src').startsWith('images/')) {
+            tokens[idx].attrSet('src', 'https://tutorial.finalchild.me/' + tokens[idx].attrGet('src'));
+        }
         let result = oldImageRule(tokens, idx, options, env, slf);
         if (idx === 0) {
             result = `<div class="img-wrapper">` + result;
@@ -61,10 +67,6 @@ async function main() {
     };
 
     const css = await fs.readFile('./style.css', 'utf8');
-
-    await fs.emptyDir('./generated');
-    await fs.copy('./images', './generated/images');
-    await fs.writeFile('./generated/CNAME', 'tutorial.finalchild.me\n');
 
     const filenames = await fs.readdir('./articles');
     filenames.map(async filename => {
