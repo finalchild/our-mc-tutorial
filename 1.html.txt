@@ -139,7 +139,7 @@ ESC 키를 누르면 게임이 일시정지됩니다.<br>
 공격 지표로 충전 상황을 확인할 수 있습니다.</p>
 <table style="table-layout: fixed; width: 100%; border-collapse: collapse; border: 1px solid lightgray;">
     <tbody>
-        <tr><td style="font-family: 'NanumGothic', sans-serif; font-size: 15px; line-height: 1.7; border: 1px solid lightgray; padding: 10px; text-align: center; padding-left: 0.9em;"><img width="150px" src="images/1/공격_지표.png"></td></tr>
+        <tr><td style="font-family: 'NanumGothic', sans-serif; font-size: 15px; line-height: 1.7; border: 1px solid lightgray; padding: 10px; text-align: center; padding-left: 0.9em;"><img width="150px" src="https://tutorial.finalchild.me/images/1/공격_지표.png"></td></tr>
         <tr><td style="font-family: 'NanumGothic', sans-serif; font-size: 15px; line-height: 1.7; border: 1px solid lightgray; padding: 10px; text-align: center; padding-left: 0.9em;">공격 지표 (십자선 아래)</td></tr>
     </tbody>
 </table>
@@ -148,7 +148,7 @@ ESC 키를 누르면 게임이 일시정지됩니다.<br>
 원하는 곳(보통 제작대 옆)에 두고 <kbd style="font-family: unset;">오른쪽 클릭</kbd>으로 사용하세요.</p>
 <table style="table-layout: fixed; width: 100%; border-collapse: collapse; border: 1px solid lightgray;">
     <tbody>
-        <tr><td style="font-family: 'NanumGothic', sans-serif; font-size: 15px; line-height: 1.7; border: 1px solid lightgray; padding: 10px; text-align: center; padding-left: 0.9em;"><img width="450px" src="images/1/화로_GUI.png"></td></tr>
+        <tr><td style="font-family: 'NanumGothic', sans-serif; font-size: 15px; line-height: 1.7; border: 1px solid lightgray; padding: 10px; text-align: center; padding-left: 0.9em;"><img width="450px" src="https://tutorial.finalchild.me/images/1/화로_GUI.png"></td></tr>
         <tr><td style="font-family: 'NanumGothic', sans-serif; font-size: 15px; line-height: 1.7; border: 1px solid lightgray; padding: 10px; text-align: center; padding-left: 0.9em;">화로 GUI</td></tr>
     </tbody>
 </table>
@@ -168,7 +168,18 @@ ESC 키를 누르면 게임이 일시정지됩니다.<br>
 어두운 곳에서는 몬스터가 생성될 수 있으니 횃불을 놓아 밝혀 줍시다.</p>
 <p style="margin-block-start: 1em; margin-block-end: 1em;"><div class="img-wrapper" style="font-family: 'NanumGothic', sans-serif; font-size: 15px; margin-block-start: 1em; margin-block-end: 1em; line-height: 0; display: block; width: 100%; padding: 1.5% 1.5% 1.5% 1.5%; border: 0.5px lightgray solid; margin: 1.5em auto 0 auto;"><img src="https://tutorial.finalchild.me/images/1/19.png" alt="" style="width: 668.7px;"></div></p>
 <p style="margin-block-start: 1em; margin-block-end: 1em;">어두워지기 전에 거주할 곳을 만들어야 합니다!<br>
-나무 판자나 조약돌처럼 많이 구할 수 있는 블록을 사용해 집을 지으셔도 되고,<br>
+나무 판자나 조약돌처럼 많이 구할 수 있는 블록을 사용해 집을 지으셔도 되고 (지붕을 ),<br>
 시간이 부족하거나 귀찮다면 아무렇게나 공간을 확보하셔도 상관 없습니다.<br>
 저는 땅 속에 방 하나를 만들어서 제작대와 화로, 횃불을 두었습니다.</p>
+<p style="margin-block-start: 1em; margin-block-end: 1em;"><div class="img-wrapper" style="font-family: 'NanumGothic', sans-serif; font-size: 15px; margin-block-start: 1em; margin-block-end: 1em; line-height: 0; display: block; width: 100%; padding: 1.5% 1.5% 1.5% 1.5%; border: 0.5px lightgray solid; margin: 1.5em auto 0 auto;"><img src="https://tutorial.finalchild.me/images/1/20.png" alt="" style="width: 668.7px;"></div></p>
+<p style="margin-block-start: 1em; margin-block-end: 1em;">몬스터들이 들어오지 못하도록 문을 달고, 표지판도 세우도록 하겠습니다.</p>
+<table style="table-layout: fixed; width: 100%; border-collapse: collapse; border: 1px solid lightgray;">
+    <tbody>
+        <tr><td style="font-family: 'NanumGothic', sans-serif; font-size: 15px; line-height: 1.7; border: 1px solid lightgray; padding: 10px; text-align: center; padding-left: 0.9em;"><img width="198px" src="https://tutorial.finalchild.me/images/1/제작법_나무_문.png"></td><td style="font-family: 'NanumGothic', sans-serif; font-size: 15px; line-height: 1.7; border: 1px solid lightgray; padding: 10px; text-align: center; padding-left: 0.9em;"><img width="198px" src="https://tutorial.finalchild.me/images/1/제작법_나무_표지판.png"></td></tr>
+        <tr><td style="font-family: 'NanumGothic', sans-serif; font-size: 15px; line-height: 1.7; border: 1px solid lightgray; padding: 10px; text-align: center; padding-left: 0.9em;">나무 문</td><td style="font-family: 'NanumGothic', sans-serif; font-size: 15px; line-height: 1.7; border: 1px solid lightgray; padding: 10px; text-align: center; padding-left: 0.9em;">나무 표지판</td></tr>
+    </tbody>
+</table>
+<p style="margin-block-start: 1em; margin-block-end: 1em;"><div class="img-wrapper" style="font-family: 'NanumGothic', sans-serif; font-size: 15px; margin-block-start: 1em; margin-block-end: 1em; line-height: 0; display: block; width: 100%; padding: 1.5% 1.5% 1.5% 1.5%; border: 0.5px lightgray solid; margin: 1.5em auto 0 auto;"><img src="https://tutorial.finalchild.me/images/1/21.png" alt="" style="width: 668.7px;"></div></p>
+<p style="margin-block-start: 1em; margin-block-end: 1em;">이렇게 안전한 집이 완성되었습니다.<br>
+다음 편에서 게임에 대해 좀 더 자세히 다루겠습니다.</p>
 </div>
