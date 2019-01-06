@@ -168,7 +168,7 @@ ESC 키를 누르면 게임이 일시정지됩니다.<br>
 어두운 곳에서는 몬스터가 생성될 수 있으니 횃불을 놓아 밝혀 줍시다.</p>
 <p style="margin-block-start: 1em; margin-block-end: 1em;"><div class="img-wrapper" style="font-family: 'NanumGothic', sans-serif; font-size: 15px; margin-block-start: 1em; margin-block-end: 1em; line-height: 0; display: block; width: 100%; padding: 1.5% 1.5% 1.5% 1.5%; border: 0.5px lightgray solid; margin: 1.5em auto 0 auto;"><img src="https://tutorial.finalchild.me/images/1/19.png" alt="" style="width: 668.7px;"></div></p>
 <p style="margin-block-start: 1em; margin-block-end: 1em;">어두워지기 전에 거주할 곳을 만들어야 합니다!<br>
-나무 판자나 조약돌처럼 많이 구할 수 있는 블록을 사용해 집을 지으셔도 되고 (지붕을 ),<br>
+나무 판자나 조약돌처럼 많이 구할 수 있는 블록을 사용해 집을 지으셔도 되고 (지붕도 지으세요!),<br>
 시간이 부족하거나 귀찮다면 아무렇게나 공간을 확보하셔도 상관 없습니다.<br>
 저는 땅 속에 방 하나를 만들어서 제작대와 화로, 횃불을 두었습니다.</p>
 <p style="margin-block-start: 1em; margin-block-end: 1em;"><div class="img-wrapper" style="font-family: 'NanumGothic', sans-serif; font-size: 15px; margin-block-start: 1em; margin-block-end: 1em; line-height: 0; display: block; width: 100%; padding: 1.5% 1.5% 1.5% 1.5%; border: 0.5px lightgray solid; margin: 1.5em auto 0 auto;"><img src="https://tutorial.finalchild.me/images/1/20.png" alt="" style="width: 668.7px;"></div></p>
