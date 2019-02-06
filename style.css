@@ -11,8 +11,8 @@ div, li, dd, dt, td, select, textarea, input {
 }
 
 ul, ol, dl, li, dd, dt, p, form, div {
-    margin-block-start: 1em;
-    margin-block-end: 1em;
+    margin-block-start: 1.5em;
+    margin-block-end: 1.5em;
 }
 
 hr {
@@ -67,7 +67,6 @@ table th.light-head {
     padding-top: 0.2em;
     padding-bottom: 0.2em;
 }
-
 
 .tip-header::before {
     content: '';
