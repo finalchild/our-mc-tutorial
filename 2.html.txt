@@ -1,5 +1,5 @@
-<div class="container" style="font-family: 'NanumGothic', sans-serif; font-size: 15px; line-height: 1.7; margin-block-start: 1em; margin-block-end: 1em; width: 90%; margin: 0.5em auto 0.5em;"><h2>도구</h2>
-<p style="margin-block-start: 1em; margin-block-end: 1em;"><strong>도구</strong>는 효율적인 행동을 위해 쓰이는 아이템 몇 가지를 말합니다.<br>
+<div class="container" style="font-family: 'NanumGothic', sans-serif; font-size: 15px; line-height: 1.7; margin-block-start: 1.5em; margin-block-end: 1.5em; width: 90%; margin: 0.5em auto 0.5em;"><h2>도구</h2>
+<p style="margin-block-start: 1.5em; margin-block-end: 1.5em;"><strong>도구</strong>는 효율적인 행동을 위해 쓰이는 아이템 몇 가지를 말합니다.<br>
 그 중에서 검, 도끼, 곡괭이, 삽, 괭이는 재료에 따라 등급이 나뉘는 것들인데, 게임 전반에 걸쳐 유용하게 쓰이기 때문에 중요합니다.<br>
 (검은 정확히는 무기로 분류합니다.)</p>
 <table style="table-layout: fixed; width: 100%; border-collapse: collapse; border: 1px solid lightgray;">
@@ -11,9 +11,9 @@
         <tr><td style="font-family: 'NanumGothic', sans-serif; font-size: 15px; line-height: 1.7; border: 1px solid lightgray; padding: 10px; text-align: center; padding-left: 0.9em;">검</td><td style="font-family: 'NanumGothic', sans-serif; font-size: 15px; line-height: 1.7; border: 1px solid lightgray; padding: 10px; text-align: center; padding-left: 0.9em;">도끼</td><td style="font-family: 'NanumGothic', sans-serif; font-size: 15px; line-height: 1.7; border: 1px solid lightgray; padding: 10px; text-align: center; padding-left: 0.9em;">곡괭이</td><td style="font-family: 'NanumGothic', sans-serif; font-size: 15px; line-height: 1.7; border: 1px solid lightgray; padding: 10px; text-align: center; padding-left: 0.9em;">삽</td><td style="font-family: 'NanumGothic', sans-serif; font-size: 15px; line-height: 1.7; border: 1px solid lightgray; padding: 10px; text-align: center; padding-left: 0.9em;">괭이</td></tr>
     </tbody>
 </table>
-<p style="margin-block-start: 1em; margin-block-end: 1em;">위의 제작법에서 나무 판자를 다른 재료로 교체하면 다른 등급의 도구를 얻을 수 있습니다.<br>
+<p style="margin-block-start: 1.5em; margin-block-end: 1.5em;">위의 제작법에서 나무 판자를 다른 재료로 교체하면 다른 등급의 도구를 얻을 수 있습니다.<br>
 도구 제작에 쓰이는 재료로는 나무 판자, 조약돌, 철괴, 다이아몬드, 금괴가 있습니다.<br>
-등급은 나무 &lt; 돌 &lt; 철 &lt; 다이아몬드이며, 등급이 높을 수록 내구도가 높고 채굴 속도가 빠릅니다. 금은 보통 쓰지 않으나 독특한 특징을 가집니다.</p>
+등급은 나무 &lt; 돌 &lt; 철 &lt; 다이아몬드이며, 등급이 높을 수록 내구도가 높고 채굴 속도가 빠릅니다. 황금은 보통 쓰지 않으나 독특한 특징을 가집니다.</p>
 <table style="table-layout: fixed; width: 100%; border-collapse: collapse; border: 1px solid lightgray;">
     <tbody>
         <tr><td style="font-family: 'NanumGothic', sans-serif; font-size: 15px; line-height: 1.7; border: 1px solid lightgray; padding: 10px; text-align: center; padding-left: 0.9em;"><img width="300px" src="https://tutorial.finalchild.me/images/2/도구_재료.png"></td></tr>
@@ -25,13 +25,13 @@
     </thead>
     <tbody>
         <tr><th class="p27" style="border: 1px solid lightgray; padding: 10px; text-align: center; background-color: rgb(229, 229, 229); width: 27%;">나무 판자</th><td style="font-family: 'NanumGothic', sans-serif; font-size: 15px; line-height: 1.7; border: 1px solid lightgray; padding: 10px; text-align: center; padding-left: 0.9em;">가장 기본적인 재료입니다.</td></tr>
-        <tr><th class="p27" style="border: 1px solid lightgray; padding: 10px; text-align: center; background-color: rgb(229, 229, 229); width: 27%;">조약돌</th><td style="font-family: 'NanumGothic', sans-serif; font-size: 15px; line-height: 1.7; border: 1px solid lightgray; padding: 10px; text-align: center; padding-left: 0.9em;">내구도가 나무 판자 도구의 2배 정도입니다.<br>채굴 속도도 2배 정도입니다.</td></tr>
-        <tr><th class="p27" style="border: 1px solid lightgray; padding: 10px; text-align: center; background-color: rgb(229, 229, 229); width: 27%;">철괴</th><td style="font-family: 'NanumGothic', sans-serif; font-size: 15px; line-height: 1.7; border: 1px solid lightgray; padding: 10px; text-align: center; padding-left: 0.9em;">내구도가 나무 판자 도구의 4배 정도입니다.<br>채굴 속도는 3배 정도입니다.</td></tr>
-        <tr><th class="p27" style="border: 1px solid lightgray; padding: 10px; text-align: center; background-color: rgb(229, 229, 229); width: 27%;">다이아몬드</th><td style="font-family: 'NanumGothic', sans-serif; font-size: 15px; line-height: 1.7; border: 1px solid lightgray; padding: 10px; text-align: center; padding-left: 0.9em;">내구도가 나무 판자 도구의 26배 정도입니다.<br>채굴 속도는 3.75배 정도입니다.</td></tr>
-        <tr><th class="p27" style="border: 1px solid lightgray; padding: 10px; text-align: center; background-color: rgb(229, 229, 229); width: 27%;">금괴</th><td style="font-family: 'NanumGothic', sans-serif; font-size: 15px; line-height: 1.7; border: 1px solid lightgray; padding: 10px; text-align: center; padding-left: 0.9em;">내구도가 나무 판자 도구의 1/2배 정도입니다.<br>채굴 속도는 5.75배 정도입니다.</td></tr>
+        <tr><th class="p27" style="border: 1px solid lightgray; padding: 10px; text-align: center; background-color: rgb(229, 229, 229); width: 27%;">조약돌</th><td style="font-family: 'NanumGothic', sans-serif; font-size: 15px; line-height: 1.7; border: 1px solid lightgray; padding: 10px; text-align: center; padding-left: 0.9em;">내구도가 나무 판자 도구의 2배 정도입니다.<br>채굴 속도도 2배입니다.</td></tr>
+        <tr><th class="p27" style="border: 1px solid lightgray; padding: 10px; text-align: center; background-color: rgb(229, 229, 229); width: 27%;">철괴</th><td style="font-family: 'NanumGothic', sans-serif; font-size: 15px; line-height: 1.7; border: 1px solid lightgray; padding: 10px; text-align: center; padding-left: 0.9em;">내구도가 나무 판자 도구의 4배 정도입니다.<br>채굴 속도는 3배입니다.</td></tr>
+        <tr><th class="p27" style="border: 1px solid lightgray; padding: 10px; text-align: center; background-color: rgb(229, 229, 229); width: 27%;">다이아몬드</th><td style="font-family: 'NanumGothic', sans-serif; font-size: 15px; line-height: 1.7; border: 1px solid lightgray; padding: 10px; text-align: center; padding-left: 0.9em;">내구도가 나무 판자 도구의 26배 정도입니다.<br>채굴 속도는 4배입니다.</td></tr>
+        <tr><th class="p27" style="border: 1px solid lightgray; padding: 10px; text-align: center; background-color: rgb(229, 229, 229); width: 27%;">금괴</th><td style="font-family: 'NanumGothic', sans-serif; font-size: 15px; line-height: 1.7; border: 1px solid lightgray; padding: 10px; text-align: center; padding-left: 0.9em;">내구도가 나무 판자 도구의 1/2배 정도입니다.<br>채굴 속도는 6배입니다.</td></tr>
     </tbody>
 </table>
-<p style="margin-block-start: 1em; margin-block-end: 1em;">각 도구의 쓰임새는 다음과 같습니다.</p>
+<p style="margin-block-start: 1.5em; margin-block-end: 1.5em;">각 도구의 쓰임새는 다음과 같습니다.</p>
 <table style="table-layout: fixed; width: 100%; border-collapse: collapse; border: 1px solid lightgray;">
     <thead>
         <tr><th class="p27" style="border: 1px solid lightgray; padding: 10px; text-align: center; background-color: rgb(229, 229, 229); width: 27%;">도구</th><th style="border: 1px solid lightgray; padding: 10px; text-align: center; background-color: rgb(229, 229, 229);">쓰임새</th></tr>
@@ -44,8 +44,8 @@
         <tr><th class="p27" style="border: 1px solid lightgray; padding: 10px; text-align: center; background-color: rgb(229, 229, 229); width: 27%;">괭이</th><td style="font-family: 'NanumGothic', sans-serif; font-size: 15px; line-height: 1.7; border: 1px solid lightgray; padding: 10px; text-align: center; padding-left: 0.9em;">흙과 잔디 블록을 경작지로 갈 때 사용합니다.</td></tr>
     </tbody>
 </table>
-<p style="margin-block-start: 1em; margin-block-end: 1em;">적절한 도구를 사용하지 않으면 채굴 속도가 6배 이상 느려지는데다, 나와야 할 아이템이 나오지 않을 수 있습니다. 곡괭이로 캐야 하는 것들이 보통 그렇습니다.</p>
-<p style="margin-block-start: 1em; margin-block-end: 1em;">곡괭이 등급 제한이 있는 블록들도 있습니다. 등급 제한에서 금은 나무와 같은 등급으로 취급합니다.</p>
+<p style="margin-block-start: 1.5em; margin-block-end: 1.5em;">적절한 도구를 사용하지 않으면 채굴 속도가 6배 이상 느려지는데다, 나와야 할 아이템이 나오지 않을 수 있습니다. 곡괭이로 캐야 하는 것들이 보통 그렇습니다.</p>
+<p style="margin-block-start: 1.5em; margin-block-end: 1.5em;">곡괭이 등급 제한이 있는 블록들도 있습니다. 등급 제한에서 금은 나무와 같은 등급으로 취급합니다.</p>
 <table style="table-layout: fixed; width: 100%; border-collapse: collapse; border: 1px solid lightgray;">
     <thead>
         <tr><th class="p27" style="border: 1px solid lightgray; padding: 10px; text-align: center; background-color: rgb(229, 229, 229); width: 27%;">등급 제한</th><th style="border: 1px solid lightgray; padding: 10px; text-align: center; background-color: rgb(229, 229, 229);">블록</th></tr>
@@ -56,31 +56,31 @@
         <tr><th class="p27" style="border: 1px solid lightgray; padding: 10px; text-align: center; background-color: rgb(229, 229, 229); width: 27%;">다이아몬드</th><td style="font-family: 'NanumGothic', sans-serif; font-size: 15px; line-height: 1.7; border: 1px solid lightgray; padding: 10px; text-align: center; padding-left: 0.9em;">흑요석</td></tr>
     </tbody>
 </table>
-<p style="margin-block-start: 1em; margin-block-end: 1em;">광물 중 석탄 광석/블록, 레드스톤 블록, 석영 광석/블록은 등급 제한이 없습니다.</p>
+<p style="margin-block-start: 1.5em; margin-block-end: 1.5em;">광물 중 석탄 광석/블록, 레드스톤 블록, 석영 광석/블록은 등급 제한이 없습니다.</p>
 <h2>전투</h2>
-<p style="margin-block-start: 1em; margin-block-end: 1em;">마인크래프트에서 <strong>전투</strong>는 중요한 요소입니다.<br>
+<p style="margin-block-start: 1.5em; margin-block-end: 1.5em;">마인크래프트에서 <strong>전투</strong>는 중요한 요소입니다.<br>
 어두운 곳에서는 몬스터가 생성되고, 특정 몹을 죽여야 얻을 수 있는 아이템도 있습니다.</p>
-<p style="margin-block-start: 1em; margin-block-end: 1em;">가장 기본적인 공격 방법은 근접 공격입니다.<br>
+<p style="margin-block-start: 1.5em; margin-block-end: 1.5em;">가장 기본적인 공격 방법은 근접 공격입니다.<br>
 맨손 등으로도 근접 공격을 할 수 있지만, 실질적인 피해를 주기 위해 주로 검이나 도끼 등 근접 무기를 사용합니다.</p>
-<p style="margin-block-start: 1em; margin-block-end: 1em;"><div class="img-wrapper" style="font-family: 'NanumGothic', sans-serif; font-size: 15px; margin-block-start: 1em; margin-block-end: 1em; line-height: 0; display: block; width: 100%; padding: 1.5% 1.5% 1.5% 1.5%; border: 0.5px lightgray solid; margin: 1.5em auto 0 auto;"><img src="https://tutorial.finalchild.me/images/2/%EA%B3%B5%EA%B2%A9_%EC%A7%80%ED%91%9C.png" alt="" style="width: 668.7px;"></div></p>
-<p style="margin-block-start: 1em; margin-block-end: 1em;">십자선 아래에 보이는 것이 <strong>공격 지표</strong>입니다.<br>
+<p style="margin-block-start: 1.5em; margin-block-end: 1.5em;"><div class="img-wrapper" style="font-family: 'NanumGothic', sans-serif; font-size: 15px; margin-block-start: 1.5em; margin-block-end: 1.5em; line-height: 0; display: block; width: 100%; padding: 1.5% 1.5% 1.5% 1.5%; border: 0.5px lightgray solid; margin: 1.5em auto 0 auto;"><img src="https://tutorial.finalchild.me/images/2/%EA%B3%B5%EA%B2%A9_%EC%A7%80%ED%91%9C.png" alt="" style="width: 668.7px;"></div></p>
+<p style="margin-block-start: 1.5em; margin-block-end: 1.5em;">십자선 아래에 보이는 것이 <strong>공격 지표</strong>입니다.<br>
 공격 지표는 근접 공격 대기 시간이 지난 정도를 알려 주며, 대기 시간이 모두 지났고 전방에 공격 대상이 있으면 + 표시도 나타납니다.</p>
-<p style="margin-block-start: 1em; margin-block-end: 1em;"><div class="img-wrapper" style="font-family: 'NanumGothic', sans-serif; font-size: 15px; margin-block-start: 1em; margin-block-end: 1em; line-height: 0; display: block; width: 100%; padding: 1.5% 1.5% 1.5% 1.5%; border: 0.5px lightgray solid; margin: 1.5em auto 0 auto;"><img src="https://tutorial.finalchild.me/images/2/%EA%B3%B5%EA%B2%A9.png" alt="" style="width: 668.7px;"></div></p>
-<p style="margin-block-start: 1em; margin-block-end: 1em;"><kbd style="font-family: unset;">왼쪽 클릭</kbd>으로 공격하면 대상은 피해를 입으며, 빨간색으로 표시되어 0.5초 동안 더 피해를 입지 않습니다.<br>
+<p style="margin-block-start: 1.5em; margin-block-end: 1.5em;"><div class="img-wrapper" style="font-family: 'NanumGothic', sans-serif; font-size: 15px; margin-block-start: 1.5em; margin-block-end: 1.5em; line-height: 0; display: block; width: 100%; padding: 1.5% 1.5% 1.5% 1.5%; border: 0.5px lightgray solid; margin: 1.5em auto 0 auto;"><img src="https://tutorial.finalchild.me/images/2/%EA%B3%B5%EA%B2%A9.png" alt="" style="width: 668.7px;"></div></p>
+<p style="margin-block-start: 1.5em; margin-block-end: 1.5em;"><kbd style="font-family: unset;">왼쪽 클릭</kbd>으로 공격하면 대상은 피해를 입으며, 빨간색으로 표시되어 0.5초 동안 더 피해를 입지 않습니다.<br>
 그리고 근접 공격 대기 시간이 시작되는데, 대기 시간이 끝나기 전에 다시 공격하면 적은 피해만 줍니다.<br>
 (정확한 식은 흐른 시간에 대한 이차식입니다.)</p>
-<p style="margin-block-start: 1em; margin-block-end: 1em;"><div class="img-wrapper" style="font-family: 'NanumGothic', sans-serif; font-size: 15px; margin-block-start: 1em; margin-block-end: 1em; line-height: 0; display: block; width: 100%; padding: 1.5% 1.5% 1.5% 1.5%; border: 0.5px lightgray solid; margin: 1.5em auto 0 auto;"><img src="https://tutorial.finalchild.me/images/2/HUD.png" alt="" style="width: 668.7px;"></div></p>
-<p style="margin-block-start: 1em; margin-block-end: 1em;">피해를 입으면 생명력이 줄어듭니다.<br>
+<p style="margin-block-start: 1.5em; margin-block-end: 1.5em;"><div class="img-wrapper" style="font-family: 'NanumGothic', sans-serif; font-size: 15px; margin-block-start: 1.5em; margin-block-end: 1.5em; line-height: 0; display: block; width: 100%; padding: 1.5% 1.5% 1.5% 1.5%; border: 0.5px lightgray solid; margin: 1.5em auto 0 auto;"><img src="https://tutorial.finalchild.me/images/2/HUD.png" alt="" style="width: 668.7px;"></div></p>
+<p style="margin-block-start: 1.5em; margin-block-end: 1.5em;">피해를 입으면 생명력이 줄어듭니다.<br>
 음식을 먹어 배고픔 바가 꽉 차 있으면 생명력이 자연적으로 회복됩니다.<br>
 생명력이 완전히 없어지면 죽고, 리스폰해야 합니다.</p>
-<p style="margin-block-start: 1em; margin-block-end: 1em;">달리고 있지 않고, 낙하하는 상태에서 근접 공격을 하면 황토색 입자 효과와 함께 피해가 1.5배가 됩니다. 이를 <strong>치명타</strong>라고 합니다.<br>
+<p style="margin-block-start: 1.5em; margin-block-end: 1.5em;">달리고 있지 않고, 낙하하는 상태에서 근접 공격을 하면 황토색 입자 효과와 함께 피해가 1.5배가 됩니다. 이를 <strong>치명타</strong>라고 합니다.<br>
 달리고 있지 않은 상태에서 검으로 근접 공격을 하면 주변에도 매우 작은 피해를 주고 밀치는 <strong>휘몰이 공격</strong>을 합니다.<br>
 도끼에는 공격 시 25% 확률로, 달리고 있는 중에는 100% 확률로 대상의 방패를 5초 동안 무력화시킬 수 있는 효과가 붙어 있습니다.</p>
-<p style="margin-block-start: 1em; margin-block-end: 1em;"><div class="img-wrapper" style="font-family: 'NanumGothic', sans-serif; font-size: 15px; margin-block-start: 1em; margin-block-end: 1em; line-height: 0; display: block; width: 100%; padding: 1.5% 1.5% 1.5% 1.5%; border: 0.5px lightgray solid; margin: 1.5em auto 0 auto;"><img src="https://tutorial.finalchild.me/images/2/%EC%B2%A0_%EA%B0%91%EC%98%B7.png" alt="" style="width: 668.7px;"></div></p>
-<p style="margin-block-start: 1em; margin-block-end: 1em;">갑옷을 통해 받는 피해를 줄일 수 있습니다.<br>
+<p style="margin-block-start: 1.5em; margin-block-end: 1.5em;"><div class="img-wrapper" style="font-family: 'NanumGothic', sans-serif; font-size: 15px; margin-block-start: 1.5em; margin-block-end: 1.5em; line-height: 0; display: block; width: 100%; padding: 1.5% 1.5% 1.5% 1.5%; border: 0.5px lightgray solid; margin: 1.5em auto 0 auto;"><img src="https://tutorial.finalchild.me/images/2/%EC%B2%A0_%EA%B0%91%EC%98%B7.png" alt="" style="width: 668.7px;"></div></p>
+<p style="margin-block-start: 1.5em; margin-block-end: 1.5em;">갑옷을 통해 받는 피해를 줄일 수 있습니다.<br>
 갑옷은 가죽, 철괴, 다이아몬드, 금괴로 만들 수 있으며,<br>
 등급은 가죽 &lt; 금 &lt; 사슬 &lt; 철 &lt; 다이아몬드입니다.</p>
-<p style="margin-block-start: 1em; margin-block-end: 1em;">사슬 갑옷은 제작할 수 없고 교환 등으로만 얻을 수 있는 특수한 갑옷입니다.<br>
+<p style="margin-block-start: 1.5em; margin-block-end: 1.5em;">사슬 갑옷은 제작할 수 없고 교환 등으로만 얻을 수 있는 특수한 갑옷입니다.<br>
 가죽 갑옷은 염색이 가능하다는 특징이 있습니다.<br>
 보통 철이나 다이아몬드 갑옷을 만들어 입게 됩니다.</p>
 <table style="table-layout: fixed; width: 100%; border-collapse: collapse; border: 1px solid lightgray;">
@@ -92,10 +92,10 @@
         <tr><td style="font-family: 'NanumGothic', sans-serif; font-size: 15px; line-height: 1.7; border: 1px solid lightgray; padding: 10px; text-align: center; padding-left: 0.9em;">투구</td><td style="font-family: 'NanumGothic', sans-serif; font-size: 15px; line-height: 1.7; border: 1px solid lightgray; padding: 10px; text-align: center; padding-left: 0.9em;">흉갑</td><td style="font-family: 'NanumGothic', sans-serif; font-size: 15px; line-height: 1.7; border: 1px solid lightgray; padding: 10px; text-align: center; padding-left: 0.9em;">각반</td><td style="font-family: 'NanumGothic', sans-serif; font-size: 15px; line-height: 1.7; border: 1px solid lightgray; padding: 10px; text-align: center; padding-left: 0.9em;">부츠</td></tr>
     </tbody>
 </table>
-<p style="margin-block-start: 1em; margin-block-end: 1em;"><div class="img-wrapper" style="font-family: 'NanumGothic', sans-serif; font-size: 15px; margin-block-start: 1em; margin-block-end: 1em; line-height: 0; display: block; width: 100%; padding: 1.5% 1.5% 1.5% 1.5%; border: 0.5px lightgray solid; margin: 1.5em auto 0 auto;"><img src="https://tutorial.finalchild.me/images/2/%EB%B0%A9%EC%96%B4.png" alt="" style="width: 668.7px;"></div></p>
-<p style="margin-block-start: 1em; margin-block-end: 1em;">철 갑옷 풀 세트는 약 40%, 다이아몬드 갑옷 풀 세트는 약 60%의 피해를 막아 줍니다.</p>
-<p style="margin-block-start: 1em; margin-block-end: 1em;"><div class="img-wrapper" style="font-family: 'NanumGothic', sans-serif; font-size: 15px; margin-block-start: 1em; margin-block-end: 1em; line-height: 0; display: block; width: 100%; padding: 1.5% 1.5% 1.5% 1.5%; border: 0.5px lightgray solid; margin: 1.5em auto 0 auto;"><img src="https://tutorial.finalchild.me/images/2/%EB%B0%A9%ED%8C%A8.png" alt="" style="width: 668.7px;"></div></p>
-<p style="margin-block-start: 1em; margin-block-end: 1em;">방패는 <kbd style="font-family: unset;">오른쪽 클릭</kbd>을 누르고 있으면 전방의 근접 및 원거리 공격을 막아 주는 아이템입니다.<br>
+<p style="margin-block-start: 1.5em; margin-block-end: 1.5em;"><div class="img-wrapper" style="font-family: 'NanumGothic', sans-serif; font-size: 15px; margin-block-start: 1.5em; margin-block-end: 1.5em; line-height: 0; display: block; width: 100%; padding: 1.5% 1.5% 1.5% 1.5%; border: 0.5px lightgray solid; margin: 1.5em auto 0 auto;"><img src="https://tutorial.finalchild.me/images/2/%EB%B0%A9%EC%96%B4.png" alt="" style="width: 668.7px;"></div></p>
+<p style="margin-block-start: 1.5em; margin-block-end: 1.5em;">철 갑옷 풀 세트는 약 40%, 다이아몬드 갑옷 풀 세트는 약 60%의 피해를 막아 줍니다.</p>
+<p style="margin-block-start: 1.5em; margin-block-end: 1.5em;"><div class="img-wrapper" style="font-family: 'NanumGothic', sans-serif; font-size: 15px; margin-block-start: 1.5em; margin-block-end: 1.5em; line-height: 0; display: block; width: 100%; padding: 1.5% 1.5% 1.5% 1.5%; border: 0.5px lightgray solid; margin: 1.5em auto 0 auto;"><img src="https://tutorial.finalchild.me/images/2/%EB%B0%A9%ED%8C%A8.png" alt="" style="width: 668.7px;"></div></p>
+<p style="margin-block-start: 1.5em; margin-block-end: 1.5em;">방패는 <kbd style="font-family: unset;">오른쪽 클릭</kbd>을 누르고 있으면 전방의 근접 및 원거리 공격을 막아 주는 아이템입니다.<br>
 특히 원거리 공격에 대처하는데 큰 도움을 줍니다.</p>
 <table style="table-layout: fixed; width: 100%; border-collapse: collapse; border: 1px solid lightgray;">
     <tbody>
@@ -108,23 +108,23 @@
         <tr><td style="font-family: 'NanumGothic', sans-serif; font-size: 15px; line-height: 1.7; border: 1px solid lightgray; padding: 10px; text-align: center; padding-left: 0.9em;"><img width="300px" src="https://tutorial.finalchild.me/images/2/갑옷과_방패.png"></td></tr>
     </tbody>
 </table>
-<p style="margin-block-start: 1em; margin-block-end: 1em;">위처럼 갑옷과 방패를 장착해 사용할 수 있습니다.</p>
+<p style="margin-block-start: 1.5em; margin-block-end: 1.5em;">위처럼 갑옷과 방패를 장착해 사용할 수 있습니다.</p>
 <h2>몹</h2>
-<p style="margin-block-start: 1em; margin-block-end: 1em;">마인크래프트에서 움직이는 생명체 개체를 몹이라 합니다.<br>
+<p style="margin-block-start: 1.5em; margin-block-end: 1.5em;">마인크래프트에서 움직이는 생명체 개체를 몹이라 합니다.<br>
 이들은 플레이어를 공격하는지 여부에 따라 평화적, 중립적, 적대적으로 분류합니다.<br>
 수십 종류의 몹이 있는데, 이 중 가장 흔하게 보이는 것들을 소개하겠습니다.</p>
-<p style="margin-block-start: 1em; margin-block-end: 1em;"><div class="img-wrapper" style="font-family: 'NanumGothic', sans-serif; font-size: 15px; margin-block-start: 1em; margin-block-end: 1em; line-height: 0; display: block; width: 100%; padding: 1.5% 1.5% 1.5% 1.5%; border: 0.5px lightgray solid; margin: 1.5em auto 0 auto;"><img src="https://tutorial.finalchild.me/images/2/%EA%B3%A0%EA%B8%B0_%EB%8F%99%EB%AC%BC.png" alt="" style="width: 668.7px;"></div></p>
-<p style="margin-block-start: 1em; margin-block-end: 1em;">고기를 주는 동물 5인방입니다.<br>
+<p style="margin-block-start: 1.5em; margin-block-end: 1.5em;"><div class="img-wrapper" style="font-family: 'NanumGothic', sans-serif; font-size: 15px; margin-block-start: 1.5em; margin-block-end: 1.5em; line-height: 0; display: block; width: 100%; padding: 1.5% 1.5% 1.5% 1.5%; border: 0.5px lightgray solid; margin: 1.5em auto 0 auto;"><img src="https://tutorial.finalchild.me/images/2/%EA%B3%A0%EA%B8%B0_%EB%8F%99%EB%AC%BC.png" alt="" style="width: 668.7px;"></div></p>
+<p style="margin-block-start: 1.5em; margin-block-end: 1.5em;">고기를 주는 동물 5인방입니다.<br>
 돼지, 소, 양, 닭, 토끼는 플레이어를 공격하지 않으며, 죽이면 훌륭한 단백질 공급원이 됩니다.<br>
 소, 양, 닭, 토끼는 각각 특수한 아이템을 주기도 합니다.</p>
-<div class="img-wrapper" style="font-family: 'NanumGothic', sans-serif; font-size: 15px; margin-block-start: 1em; margin-block-end: 1em; line-height: 0; display: block; width: 100%; padding: 1.5% 1.5% 1.5% 1.5%; border: 0.5px lightgray solid; margin: 1.5em auto 0 auto;"><img width="300px" src="https://tutorial.finalchild.me/images/2/제작법_익힌_돼지고기.png" style="width: 668.7px;"></div>
-<p style="margin-block-start: 1em; margin-block-end: 1em;">고기는 화로나 훈연기에서 익혀 먹어야 배고픔 바를 더 많이 회복해 줍니다.<br>
+<div class="img-wrapper" style="font-family: 'NanumGothic', sans-serif; font-size: 15px; margin-block-start: 1.5em; margin-block-end: 1.5em; line-height: 0; display: block; width: 100%; padding: 1.5% 1.5% 1.5% 1.5%; border: 0.5px lightgray solid; margin: 1.5em auto 0 auto;"><img width="300px" src="https://tutorial.finalchild.me/images/2/제작법_익힌_돼지고기.png" style="width: 668.7px;"></div>
+<p style="margin-block-start: 1.5em; margin-block-end: 1.5em;">고기는 화로나 훈연기에서 익혀 먹어야 배고픔 바를 더 많이 회복해 줍니다.<br>
 특히 닭고기는 익혀 먹지 않으면 식중독의 위험이 있습니다.<br>
 익힌 고기를 손에 들고 <kbd style="font-family: unset;">길게 오른쪽 클릭</kbd>하여 먹습니다.</p>
-<p style="margin-block-start: 1em; margin-block-end: 1em;"><div class="img-wrapper" style="font-family: 'NanumGothic', sans-serif; font-size: 15px; margin-block-start: 1em; margin-block-end: 1em; line-height: 0; display: block; width: 100%; padding: 1.5% 1.5% 1.5% 1.5%; border: 0.5px lightgray solid; margin: 1.5em auto 0 auto;"><img src="https://tutorial.finalchild.me/images/2/%EC%A2%80%EB%B9%84%EC%99%80_%EC%8A%A4%EC%BC%88%EB%A0%88%ED%86%A4%EA%B3%BC_%EA%B1%B0%EB%AF%B8.png" alt="" style="width: 668.7px;"></div></p>
-<p style="margin-block-start: 1em; margin-block-end: 1em;">좀비와 스켈레톤과 거미는 어두운 곳에서 자연적으로 생성됩니다.<br>
+<p style="margin-block-start: 1.5em; margin-block-end: 1.5em;"><div class="img-wrapper" style="font-family: 'NanumGothic', sans-serif; font-size: 15px; margin-block-start: 1.5em; margin-block-end: 1.5em; line-height: 0; display: block; width: 100%; padding: 1.5% 1.5% 1.5% 1.5%; border: 0.5px lightgray solid; margin: 1.5em auto 0 auto;"><img src="https://tutorial.finalchild.me/images/2/%EC%A2%80%EB%B9%84%EC%99%80_%EC%8A%A4%EC%BC%88%EB%A0%88%ED%86%A4%EA%B3%BC_%EA%B1%B0%EB%AF%B8.png" alt="" style="width: 668.7px;"></div></p>
+<p style="margin-block-start: 1.5em; margin-block-end: 1.5em;">좀비와 스켈레톤과 거미는 어두운 곳에서 자연적으로 생성됩니다.<br>
 좀비는 플레이어에게 다가와 근접 공격을 합니다.<br>
-스켈레톤은 활로 원거리 공격을 합니다.<br>
-거미는 빠른 속도로 다가와 점프 돌진 공격을 하는데, 밝은 곳에서는 선공을 맞지 않는 한 플레이어를 공격하지 않습니다.<br>
+스켈레톤은 활을 쏘는 원거리 공격을 합니다.<br>
+거미는 속도가 빠르며 점프 돌진 공격을 하는데, 밝은 곳에서는 플레이어를 먼저 공격하지 않습니다.<br>
 죽이면 좀비는 썩은 살점, 스켈레톤은 뼈와 화살, 거미는 실과 거미 눈을 주로 떨어뜨립니다.</p>
 </div>
