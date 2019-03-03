@@ -8,6 +8,7 @@ div, li, dd, dt, td, select, textarea, input {
     font-family: 'NanumGothic', sans-serif;
     font-size: 15px;
     line-height: 1.7;
+    word-break: keep-all;
 }
 
 ul, ol, dl, li, dd, dt, p, form, div {
