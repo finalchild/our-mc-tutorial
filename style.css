@@ -44,29 +44,33 @@ table {
     border: 1px solid lightgray;
 }
 
-table th, table td {
+th, td {
     border: 1px solid lightgray;
     padding: 10px;
     text-align: center;
 }
 
-table th {
+th {
     background-color: rgb(229, 229, 229);
 }
 
-table td {
+td {
     padding-left: 0.9em; 
 }
 
-table th.p27 {
+th.p27 {
     background-color: rgb(229, 229, 229);
     width: 27%
 }
 
-table th.light-head {
+th.light-head {
     background-color: lightgreen;
     padding-top: 0.2em;
     padding-bottom: 0.2em;
+}
+
+th strong {
+    text-decoration: underline;
 }
 
 .tip-header::before {
