@@ -14,7 +14,11 @@
     "url": "https://github.com/finalchild/our-mc-tutorial/issues"
   },
   "license": "UNLICENSED",
-  "author": "Final Child",
+  "author": {
+    "name": "Final Child",
+    "email": "finalchild2@gmail.com",
+    "url": "https://finalchild.me/"
+  },
   "main": "markcafe.mjs",
   "repository": {
     "type": "git",
