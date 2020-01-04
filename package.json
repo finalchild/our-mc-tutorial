@@ -2,9 +2,9 @@
   "name": "our-mc-tutorial",
   "version": "0.0.1-SNAPSHOT",
   "description": "A Minecraft tutorial for Our Minecraft Space",
-  "main": "index.mjs",
+  "main": "markcafe.mjs",
   "scripts": {
-    "generate": "node index.mjs"
+    "generate": "node markcafe.mjs"
   },
   "repository": {
     "type": "git",
