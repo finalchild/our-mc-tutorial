@@ -2,14 +2,6 @@
   "name": "our-mc-tutorial",
   "version": "0.0.1-SNAPSHOT",
   "description": "A Minecraft tutorial for Our Minecraft Space",
-  "main": "markcafe.mjs",
-  "scripts": {
-    "generate": "node markcafe.mjs"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/finalchild/our-mc-tutorial.git"
-  },
   "keywords": [
     "Minecraft",
     "tutorial",
@@ -17,12 +9,20 @@
     "cafe",
     "our-minecraft-space"
   ],
-  "author": "Final Child",
-  "license": "UNLICENSED",
+  "homepage": "https://github.com/finalchild/our-mc-tutorial#readme",
   "bugs": {
     "url": "https://github.com/finalchild/our-mc-tutorial/issues"
   },
-  "homepage": "https://github.com/finalchild/our-mc-tutorial#readme",
+  "license": "UNLICENSED",
+  "author": "Final Child",
+  "main": "markcafe.mjs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/finalchild/our-mc-tutorial.git"
+  },
+  "scripts": {
+    "generate": "node markcafe.mjs"
+  },
   "dependencies": {
     "fs-extra": "^8.1.0",
     "juice": "^6.0.0",
