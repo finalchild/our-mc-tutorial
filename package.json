@@ -4,7 +4,7 @@
   "description": "A Minecraft tutorial for Our Minecraft Space",
   "main": "index.mjs",
   "scripts": {
-    "generate": "node --experimental-modules index.mjs"
+    "generate": "node index.mjs"
   },
   "repository": {
     "type": "git",
