@@ -42,11 +42,7 @@ async function main() {
         fs.writeFile(path.join(config.generatedDirectory, 'CNAME'), config.cname + '\n')
     ]);
 
-    const md = new MarkdownIt({
-        html: true,
-        breaks: true,
-        typographer: true
-    }).use(containerPlugin, 'tip', {
+    const md = new MarkdownIt(config.markdownItOptions).use(containerPlugin, 'tip', {
         render: (tokens, idx) => {
             if (tokens[idx].nesting === 1) {
                 return `<div class="tip-header">${config.tipHeaderContent}</div>\n<div class="tip">`;

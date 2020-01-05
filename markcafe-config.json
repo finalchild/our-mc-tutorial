@@ -4,6 +4,11 @@
     "cssFile": "./style.css",
     "generatedDirectory": "./generated",
     "cname": "tutorial.finalchild.me",
+    "markdownItOptions": {
+        "html": true,
+        "breaks": true,
+        "typographer": true
+    },
     "imgSrcPrefix": "https://tutorial.finalchild.me/",
     "tipHeaderContent": "파차식 팁"
 }
