@@ -33,15 +33,8 @@ main();
 
 async function main() {
     const config = await fs.readJson('./markcafe-config.json', 'utf8');
-    if (config.generatedDirectory.endsWith('/')) config.generatedDirectory = config.generatedDirectory.slice(0, str.length - 1);
+    if (config.generatedDirectoryPath.endsWith('/')) config.generatedDirectoryPath = config.generatedDirectoryPath.slice(0, str.length - 1);
     if (!config.imgSrcPrefix.endsWith('/')) config.imgSrcPrefix += '/';
-
-    await fs.emptyDir(config.generatedDirectory);
-    await Promise.all([
-        fs.copy(config.imagesDirectory, path.join(config.generatedDirectory, 'images')),
-        fs.writeFile(path.join(config.generatedDirectory, 'CNAME'), config.cname + '\n')
-    ]);
-
     const md = new MarkdownIt(config.markdownItOptions).use(containerPlugin, 'tip', {
         render: (tokens, idx) => {
             if (tokens[idx].nesting === 1) {
@@ -67,13 +60,23 @@ async function main() {
         return result;
     };
 
-    const css = await fs.readFile(config.cssFile, 'utf8');
+    await fs.emptyDir(config.generatedDirectoryPath);
 
-    const filenames = await fs.readdir(config.articlesDirectory);
-    await Promise.all(filenames.map(async filename => {
-        const baseName = filename.replace(/\.[^/.]+$/, '');
-        await convertFile(md, css, path.join(config.articlesDirectory, filename), path.join(config.generatedDirectory, baseName + '.html.txt'), path.join(config.generatedDirectory, baseName + '.html'));
-    }));
+    const promises = [];
+    promises.push(fs.copy(config.imagesDirectoryPath, path.join(config.generatedDirectoryPath, 'images')));
+    if (typeof config.cname === 'string' && config.cname !== '') {
+        promises.push(fs.writeFile(path.join(config.generatedDirectoryPath, 'CNAME'), config.cname + '\n'));
+    }
+    promises.push((async () => {
+        const css = await fs.readFile(config.cssPath, 'utf8');
+
+        const filenames = await fs.readdir(config.articlesDirectoryPath);
+        await Promise.all(filenames.map(async filename => {
+            const baseName = filename.replace(/\.[^/.]+$/, '');
+            await convertFile(md, css, path.join(config.articlesDirectoryPath, filename), path.join(config.generatedDirectoryPath, baseName + '.html.txt'), path.join(config.generatedDirectoryPath, baseName + '.html'));
+        }));
+    })());
+    await Promise.all(promises);
 }
 
 async function convertFile(md, css, srcPath, targetTxtPath, targetHtmlPath) {

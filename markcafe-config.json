@@ -1,8 +1,8 @@
 {
-    "articlesDirectory": "./articles",
-    "imagesDirectory": "./images",
-    "cssFile": "./style.css",
-    "generatedDirectory": "./generated",
+    "articlesDirectoryPath": "./articles",
+    "imagesDirectoryPath": "./images",
+    "cssPath": "./style.css",
+    "generatedDirectoryPath": "./generated",
     "cname": "tutorial.finalchild.me",
     "markdownItOptions": {
         "html": true,
