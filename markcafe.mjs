@@ -1,5 +1,5 @@
 import MarkdownIt from 'markdown-it';
-import container_plugin from 'markdown-it-container';
+import containerPlugin from 'markdown-it-container';
 import fs from 'fs-extra';
 import path from 'path';
 import juice from 'juice';
@@ -23,7 +23,6 @@ const template2Start = `<!DOCTYPE html>
 <body>
 <article class="naver-cafe-post">
 `;
-
 const template2End = `
 </div>
 </body>
@@ -38,14 +37,16 @@ async function main() {
     if (!config.imgSrcPrefix.endsWith('/')) config.imgSrcPrefix += '/';
 
     await fs.emptyDir(config.generatedDirectory);
-    await fs.copy(config.imagesDirectory, path.join(config.generatedDirectory, 'images'));
-    await fs.writeFile(path.join(config.generatedDirectory, 'CNAME'), config.cname + '\n');
+    await Promise.all([
+        fs.copy(config.imagesDirectory, path.join(config.generatedDirectory, 'images')),
+        fs.writeFile(path.join(config.generatedDirectory, 'CNAME'), config.cname + '\n')
+    ]);
 
     const md = new MarkdownIt({
         html: true,
         breaks: true,
         typographer: true
-    }).use(container_plugin, 'tip', {
+    }).use(containerPlugin, 'tip', {
         render: (tokens, idx) => {
             if (tokens[idx].nesting === 1) {
                 return `<div class="tip-header">${config.tipHeaderContent}</div>\n<div class="tip">`;
@@ -73,12 +74,10 @@ async function main() {
     const css = await fs.readFile(config.cssFile, 'utf8');
 
     const filenames = await fs.readdir(config.articlesDirectory);
-    filenames.map(async filename => {
+    await Promise.all(filenames.map(async filename => {
         const baseName = filename.replace(/\.[^/.]+$/, '');
-        convertFile(md, css, path.join(config.articlesDirectory, filename), path.join(config.generatedDirectory, baseName + '.html.txt'), path.join(config.generatedDirectory, baseName + '.html'));
-    }).forEach(async promise => {
-        await promise;
-    });
+        await convertFile(md, css, path.join(config.articlesDirectory, filename), path.join(config.generatedDirectory, baseName + '.html.txt'), path.join(config.generatedDirectory, baseName + '.html'));
+    }));
 }
 
 async function convertFile(md, css, srcPath, targetTxtPath, targetHtmlPath) {
@@ -95,8 +94,8 @@ async function convertFile(md, css, srcPath, targetTxtPath, targetHtmlPath) {
     });
     const templated2 = template2Start + juiced + template2End;
     
-    const txtPromise = fs.writeFile(targetTxtPath, juiced);
-    const htmlPromise = fs.writeFile(targetHtmlPath, templated2);
-    await txtPromise;
-    await htmlPromise;
+    await Promise.all([
+        fs.writeFile(targetTxtPath, juiced),
+        fs.writeFile(targetHtmlPath, templated2)
+    ]);
 }
