@@ -88,7 +88,7 @@ async function convertFile(md, css, srcPath, targetTxtPath, targetHtmlPath) {
     const juiced = juice.inlineContent(templated1, css, {
         inlinePseudoElements: true,
         preserveFontFaces: false,
-        preserveImpotant: false,
+        preserveImportant: false,
         preserveMediaQueries: false,
         preserveKeyFrames: false,
         preservePseudos: false
