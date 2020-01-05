@@ -1,0 +1,9 @@
+{
+    "articlesDirectory": "./articles",
+    "imagesDirectory": "./images",
+    "cssFile": "./style.css",
+    "generatedDirectory": "./generated",
+    "cname": "tutorial.finalchild.me",
+    "imgSrcPrefix": "https://tutorial.finalchild.me/",
+    "tipHeaderContent": "파차식 팁"
+}

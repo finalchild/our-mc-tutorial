@@ -33,9 +33,13 @@ const template2End = `
 main();
 
 async function main() {
-    await fs.emptyDir('./generated');
-    await fs.copy('./images', './generated/images');
-    await fs.writeFile('./generated/CNAME', 'tutorial.finalchild.me\n');
+    const config = await fs.readJson('./markcafe-config.json', 'utf8');
+    if (config.generatedDirectory.endsWith('/')) config.generatedDirectory = config.generatedDirectory.slice(0, str.length - 1);
+    if (!config.imgSrcPrefix.endsWith('/')) config.imgSrcPrefix += '/';
+
+    await fs.emptyDir(config.generatedDirectory);
+    await fs.copy(config.imagesDirectory, path.join(config.generatedDirectory, 'images'));
+    await fs.writeFile(path.join(config.generatedDirectory, 'CNAME'), config.cname + '\n');
 
     const md = new MarkdownIt({
         html: true,
@@ -44,7 +48,7 @@ async function main() {
     }).use(container_plugin, 'tip', {
         render: (tokens, idx) => {
             if (tokens[idx].nesting === 1) {
-                return `<div class="tip-header">파차식 팁</div>\n<div class="tip">`;
+                return `<div class="tip-header">${config.tipHeaderContent}</div>\n<div class="tip">`;
             } else {
                 return `</div>\n`;
             }
@@ -54,7 +58,7 @@ async function main() {
     md.renderer.rules.image = (tokens, idx, options, env, slf) => {
         if (tokens[idx].nesting !== 0) return oldImageRule(tokens, idx, options, env, slf);
         if (tokens[idx].attrGet('src').startsWith('images/')) {
-            tokens[idx].attrSet('src', 'https://tutorial.finalchild.me/' + tokens[idx].attrGet('src'));
+            tokens[idx].attrSet('src', config.imgSrcPrefix + tokens[idx].attrGet('src'));
         }
         let result = oldImageRule(tokens, idx, options, env, slf);
         if (idx === 0) {
@@ -66,12 +70,12 @@ async function main() {
         return result;
     };
 
-    const css = await fs.readFile('./style.css', 'utf8');
+    const css = await fs.readFile(config.cssFile, 'utf8');
 
-    const filenames = await fs.readdir('./articles');
+    const filenames = await fs.readdir(config.articlesDirectory);
     filenames.map(async filename => {
         const baseName = filename.replace(/\.[^/.]+$/, '');
-        convertFile(md, css, path.join('./articles', filename), path.join('./generated', baseName + '.html.txt'), path.join('./generated', baseName + '.html'));
+        convertFile(md, css, path.join(config.articlesDirectory, filename), path.join(config.generatedDirectory, baseName + '.html.txt'), path.join(config.generatedDirectory, baseName + '.html'));
     }).forEach(async promise => {
         await promise;
     });
